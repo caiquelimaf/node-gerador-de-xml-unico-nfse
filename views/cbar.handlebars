@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <head>
+        <title>Gerador de XML</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+
+    <body>
+        <div class="input-form">
+            <div>
+                <img src="img/logo-totvs.png" alt="" class="logo">
+            </div>
+            <div class="container">
+
+                <div class="divarq">
+                    <p class="text-default">
+                        Cole abaixo um XML válido deste prestador (modelo único):
+                    </p>
+                    <textarea id="txtfiletoread" rows="11" cols="59"></textarea><br/>
+                    
+                    <form name="cbarras" id="cbarras-form" class="formlogin"></form>
+    
+                        <p class="text-default">Qual operação você irá realizar?</p>
+                        <select name="tipoxml" id="id-tipoxml" class="input-cbarras">
+
+                            <option>Selecionar</option>
+                            <option>1 - ISS Retido</option>
+                            <option>2 - Simples Nacional</option>
+                            <option>3 - Tributável</option>
+                            <option>4 - Tributação isenta</option>
+                            <option>5 - Tributação fora do município</option>
+                            <option>6 - Tributação imune</option>
+                            <option>7 - Exigibilidade Susp. Dec. Judicial</option>
+                            <option>8 - Exigibilidade Susp. Proc. Adm</option>
+                            <option>9 - Sem tomador</option>
+                            <option>10 - Caractere especial</option>
+                            <option>11 - Cod. Obra</option>
+                            <option>12 - Dedução</option>
+                            <option>13 - Redução</option>
+
+                        </select>
+    
+                        <div class="inforps">
+                            <div>
+                                <p class="text-default">Qual será o número do RPS?</p>
+                                <input name="numrps" id="id-numrps" class="input-cbarras" placeholder=" Ex: 000001"></br></br>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn-print" onclick="geraxml()">Gerar XML</button>
+                    </form>
+                </div>
+                <div class="divcontent">
+                    <p class="text-default">
+                        Resultado:
+                    </p>
+                    <textarea id="txtfiletoresult" rows="16" cols="59"></textarea><br/>
+                    <p class="text-default">
+                        Resultado em Base64:
+                    </p>
+                    <textarea id="txtfiletoresult64" rows="4" cols="59"></textarea><br/>
+                </div>
+            </div>
+    
+        </div>
+    
+    </body>
+
+</html>

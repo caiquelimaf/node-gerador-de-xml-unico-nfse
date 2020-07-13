@@ -1,0 +1,104 @@
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.inforps{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.input-numrps{
+    width: 13em;
+    height: 20px;
+    margin-bottom: 5px ;
+}
+
+.input-valrps{
+    width: 13em;
+    height: 20px;
+    margin-bottom: 5px ;
+}
+
+.div-valrps{
+    margin-left: 25px;  
+}
+
+.formlogin{
+    align-content: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.input-form {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 50px;
+    margin: 0px 180px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.divcontent {
+    width: 450px;
+    height: 430px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px -2px 9px gray;
+    border-width: 10px;
+    border-color: black;
+    padding-left: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.divarq {
+    width: 450px;
+    height: 430px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px -2px 9px gray;
+    border-width: 10px;
+    border-color: black;
+    padding-left: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.btn-print{
+    height: 26px;
+}
+
+.text-default {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.container{
+    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
